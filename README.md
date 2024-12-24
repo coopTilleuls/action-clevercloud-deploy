@@ -5,7 +5,7 @@ This action deploys to your app hosted on [Clever Cloud](https://clever-cloud.co
 # Usage
 
 ```yaml
-uses: coopTilleuls/action-clevercloud-deploy@v1
+uses: coopTilleuls/action-clevercloud-deploy/.github/workflow/deploy.yml@v1
     with:
       # The name of the github environment where you defined
       # variable APP_ID and secrets CLEVER_TOKEN and CLEVER_SECRET
